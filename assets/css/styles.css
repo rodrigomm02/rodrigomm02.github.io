@@ -3,12 +3,20 @@
 /* // <uniquifier>: Use a unique and descriptive class name
 // <weight>: Use a value from 400 to 900 */
 
+.bg-color{
+    background-color: rgb(237, 238, 247);
+}
 
 h1, h2, h3, h4, h5, h6, .logo{
     font-family: "Playfair Display", serif;
     font-optical-sizing: auto;
     font-weight: 700;
     font-style: normal;
+    color:#edeef7;
+}
+
+a{
+    color: inherit;
 }
 
 body{
