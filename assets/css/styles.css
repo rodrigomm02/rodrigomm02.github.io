@@ -12,14 +12,14 @@ h1, h2, h3, h4, h5, h6, .logo{
     font-optical-sizing: auto;
     font-weight: 700;
     font-style: normal;
-    color:#edeef7;
+    /* color:#edeef7; */
 }
 
 a{
     color: inherit;
 }
 
-body{
+body, .main{
     font-family: "Montserrat", sans-serif;
     font-optical-sizing: auto;
     font-weight: 400;
