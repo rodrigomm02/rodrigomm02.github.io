@@ -4,40 +4,65 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <link rel="icon" type="image/x-icon" href="assets/icons/building_bridge_icon_151506.ico">
     <link rel="stylesheet" href="assets/css/styles.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
 
-    <title>Document</title>
+    <title>Navbar</title>
 </head>
 
 <body>
-    <nav class="navbar
-     bg-body-tertiary">
+    <!-- Barra de navegação -->
+    <div class="text-center py-3 bg-body-tertiary">
+        <span class="h3 logo">PONTE Shop</span>
+    </div>
+    <header class="navbar navbar-expand-lg sticky-top bg-body-tertiary border-bottom">
         <div class="container-fluid">
-            <a class="navbar-brand logo" href="#"><img src="assets/svg/building_bridge_icon_151506.svg" alt="Logotipo"
-                    width="30" height="24" class="d-inline-block align-text-bottom">PONTE Shop</a>
+            <!-- Logótipo PONTE Shop -->
+            <!-- <a class="navbar-brand logo" href="./">
+        <img src="assets/svg/building_bridge_icon_151506.svg" alt="Logo" width="30" height="24"
+          class="d-inline-block align-text-bottom">
+        PONTE Shop
+      </a> -->
 
-                    
-            <!-- Botão offcanvas -->
-            <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasScrolling"
-                aria-controls="offcanvasScrolling">
-                <span class="navbar-toggler-icon"></span></button>
+            <!-- Linha vertical -->
+            <!-- <div class="vr"></div> -->
 
-            <div class="offcanvas offcanvas-start" data-bs-scroll="true" data-bs-backdrop="false" tabindex="-1"
-                id="offcanvasScrolling" aria-labelledby="offcanvasScrollingLabel">
-                <div class="offcanvas-header">
-                    <h3 class="offcanvas-title" id="offcanvasScrollingLabel">Produtos</h3>
-                    <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
-                </div>
-                <div class="offcanvas-body">
-                    <p>Try scrolling the rest of the page to see this option in action.</p>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText"
+                aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarText">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="./">Página Inicial</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="products">Produtos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="services">Serviços</a>
+                    </li>
+                </ul>
+                <div class="btn-group">
+                    <button class="btn dropdown-toggle border border-1 border-dark-subtle" < type="button"
+                        data-bs-toggle="dropdown" aria-expanded="false">
+                        <img src="assets/svg/person-circle.svg" class="" alt="">
+                    </button>
+                    <ul class="dropdown-menu dropdown-menu-lg-end dropdown-menu-sm-start">
+                        <li><a class="dropdown-item" href="customer/account/login">Entrar</a></li>
+                        <li><a class="dropdown-item" href="customer/account/register">Registar</a></li>
+                        <li>
+                            <hr class="dropdown-divider">
+                        </li>
+                        <li><a class="dropdown-item disabled" href="#">Definições</a></li>
+                    </ul>
                 </div>
             </div>
         </div>
-
-    </nav>
+    </header>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 </body>

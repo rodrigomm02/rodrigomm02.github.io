@@ -13,14 +13,17 @@
 
 <body>
     <!-- Barra de navegação -->
+    <div class="text-center py-3 bg-body-tertiary">
+        <span class="h3 logo">PONTE Shop</span>
+    </div>
     <header class="navbar navbar-expand-lg sticky-top bg-body-tertiary border-bottom">
-        <div class="container">
+        <div class="container-fluid">
             <!-- Logótipo PONTE Shop -->
-            <a class="navbar-brand logo" href="./">
-                <img src="assets/svg/building_bridge_icon_151506.svg" alt="Logo" width="30" height="24"
-                    class="d-inline-block align-text-bottom">
-                PONTE Shop
-            </a>
+            <!-- <a class="navbar-brand logo" href="./">
+        <img src="assets/svg/building_bridge_icon_151506.svg" alt="Logo" width="30" height="24"
+          class="d-inline-block align-text-bottom">
+        PONTE Shop
+      </a> -->
 
             <!-- Linha vertical -->
             <!-- <div class="vr"></div> -->
@@ -32,32 +35,29 @@
             <div class="collapse navbar-collapse" id="navbarText">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="./">Página Inicial</a>
+                        <a class="nav-link" href="./">Página Inicial</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="products.html">Produtos</a>
+                        <a class="nav-link" href="products">Produtos</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="services">Serviços</a>
-                    </li>
-                    <!-- <li class="nav-item">
-            <a class="nav-link" href="#">Blog</a>
-          </li> -->
-                    <li class="nav-item">
-                        <a class="nav-link" href="contacts.html">Contactos</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="sobre-a-ponte.html">Sobre a PONTE</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="customer/account/register.html">Register.html</a>
+                        <a class="nav-link active" aria-current="page" href="services">Serviços</a>
                     </li>
                 </ul>
-                <ul class="navbar-nav ">
-                    <li class="nav-item dropdown">
-                        <span class="nav-link disabled dropdown-toggle">Brevemente</span>
-                    </li>
-                </ul>
+                <div class="btn-group">
+                    <button class="btn dropdown-toggle border border-1 border-dark-subtle" < type="button"
+                        data-bs-toggle="dropdown" aria-expanded="false">
+                        <img src="assets/svg/person-circle.svg" class="" alt="">
+                    </button>
+                    <ul class="dropdown-menu dropdown-menu-lg-end dropdown-menu-sm-start">
+                        <li><a class="dropdown-item" href="customer/account/login">Entrar</a></li>
+                        <li><a class="dropdown-item" href="customer/account/register">Registar</a></li>
+                        <li>
+                            <hr class="dropdown-divider">
+                        </li>
+                        <li><a class="dropdown-item disabled" href="#">Definições</a></li>
+                    </ul>
+                </div>
             </div>
         </div>
     </header>
