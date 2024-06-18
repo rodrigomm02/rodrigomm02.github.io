@@ -14,57 +14,63 @@
 
 <body>
     <!-- Barra de navegação -->
-    <div class="text-center py-3 bg-body-tertiary">
-        <span class="h3 logo">PONTE Shop</span>
+    <div class="text-center py-3">
+        <h3 class="logo">PONTE Shop</h3>
     </div>
-    <header class="navbar navbar-expand-lg sticky-top bg-body-tertiary border-bottom text-uppercase">
+    <nav class="navbar navbar-expand-md nav-underline sticky-top text-uppercase"
+        style="background-color: #edf5fa; color:#253755">
         <div class="container-fluid">
-            <!-- Logótipo PONTE Shop -->
-            <!-- <a class="navbar-brand logo" href="./">
-        <img src="assets/svg/building_bridge_icon_151506.svg" alt="Logo" width="30" height="24"
-          class="d-inline-block align-text-bottom">
-        PONTE Shop
-      </a> -->
-
-            <!-- Linha vertical -->
-            <!-- <div class="vr"></div> -->
-
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText"
-                aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
-            <div class="collapse navbar-collapse" id="navbarText">
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                    <li class="nav-item">
-                        <a class="nav-link" href="./">Página Inicial</a>
+            <div class="collapse navbar-collapse" id="navbarNav">
+
+                <!-- Páginas Principais -->
+                <ul class="navbar-nav me-auto">
+                    <li class="nav-item mx-1">
+                        <a class="nav-link" href="./" style="color: #253755">Página
+                            Inicial</a>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="products">Produtos</a>
+                    <li class="nav-item mx-1">
+                        <a class="nav-link" href="products" style="color: #253755">Produtos</a>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="services">Serviços</a>
+                    <li class="nav-item mx-1">
+                        <a class="nav-link" href="services" style="color: #253755">Serviços</a>
+                    </li>
+
+                    <!-- Dropdown -->
+                    <li class="nav-item mx-1 dropdown">
+                        <a class="nav-link dropdown-toggle active" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false" style="color: #253755">
+                            Outros
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item " href="sobre-a-ponte" style="color: #253755">Sobre a PONTE</a>
+                            </li>
+                            <li><a class="dropdown-item" href="contacts" style="color: #253755">Contactos</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="termos-e-condicoes" style="color: #253755">Termos e
+                                    Condições</a></li>
+                        </ul>
                     </li>
                 </ul>
-                <div class="btn-group">
-                    <button class="btn dropdown-toggle border border-1 border-dark-subtle" < type="button"
-                        data-bs-toggle="dropdown" aria-expanded="false">
-                        <img src="assets/svg/person-circle.svg" class="" alt="">
-                    </button>
-                    <ul class="dropdown-menu dropdown-menu-lg-end dropdown-menu-sm-start">
-                        <li><a class="dropdown-item" href="customer/account/login">Entrar</a></li>
-                        <li><a class="dropdown-item" href="customer/account/register">Registar</a></li>
-                        <li>
-                            <hr class="dropdown-divider">
-                        </li>
-                        <li><a class="dropdown-item disabled" href="#">Definições</a></li>
-                    </ul>
-                </div>
+
+                <!-- Botão Login -->
+                <ul class="navbar-nav">
+                    <li class="nav-item mx-1">
+                        <a class="nav-link" href="customer/account/login" style="color: #253755">Login</a>
+                    </li>
+                </ul>
             </div>
         </div>
-    </header>
+    </nav>
 
+    <img src="assets/img/nordwood-themes-q8U1YgBaRQk-unsplash.jpg" class="img-fluid shadow w-100"
+                    alt="Contactos">
     <main class="container">
-
 
         <div class="row">
             <div class="col-sm-12 mt-sm-5">
@@ -73,10 +79,6 @@
                 quo
                 eaque aliquam explicabo saepe dolor, veritatis beatae mollitia magnam dolore culpa provident error. Amet
                 natus animi voluptatum, ex reprehenderit recusandae!
-            </div>
-            <div class="col-12">
-                <img src="assets/img/nordwood-themes-q8U1YgBaRQk-unsplash.jpg" class="img-fluid shadow my-5"
-                    alt="Contactos">
             </div>
 
             <div class="col-sm-2 mt-5">
@@ -93,12 +95,22 @@
     </main>
 
     <!-- Rodapé -->
-    <footer class="" style="background-color: #262b6e; color: #edeef7">
-        <div class="container p-4">
+    <footer class="mt-5" style="background-color: #253755; color: #edf5fa">
+
+        <div class="text-center p-3">
+            <a href="" class=" px-1"><img src="assets/svg/twitter-x.svg" alt="" width="30" height="24"
+                    class="d-inline-block align-text-bottom"></a>
+            <a href="" class="px-1"><img src="assets/svg/instagram.svg" alt="" width="30" height="24"
+                    class="d-inline-block align-text-bottom"></a>
+            <a href="" class="px-1"><img src="assets/svg/youtube.svg" alt="" width="30" height="24"
+                    class="d-inline-block align-text-bottom"></a>
+        </div>
+
+        <div class="container-fluid p-3">
             <div class="row">
                 <div class="col-lg-6 col-md-12 mb-4 mb-md-0">
-                    <h5 class="text-uppercase">PONTE Shop</h5>
-                    <p>
+                    <h5 class="text-uppercase logo">PONTE Shop</h5>
+                    <p class="small">
                         As imagens apresentadas podem não corresponder às especificações do produto no Mercado
                         Português. Por questões técnicas, as cores apresentadas podem diferir ligeiramente das cores
                         reais.
@@ -109,16 +121,14 @@
 
                     <ul class="list-unstyled mb-0">
                         <li>
-                            <a href="#!" class="" style="color:#edeef7">Área de Cliente</a>
+                            <a href="#!" class="text-decoration-none" style="color:#edf5fa">Área de Cliente</a>
                         </li>
                         <li>
-                            <a href="sobre-a-ponte.html" class="" style="color:#edeef7">Sobre a PONTE</a>
+                            <a href="sobre-a-ponte.html" class="text-decoration-none" style="color:#edf5fa">Sobre a
+                                PONTE</a>
                         </li>
                         <li>
-                            <a href="contacts.html" class="" style="color:#edeef7">Contactos</a>
-                        </li>
-                        <li>
-                            <a href="#!" class="" style="color:#edeef7">Brevemente</a>
+                            <a href="contacts.html" class="text-decoration-none" style="color:#edf5fa">Contactos</a>
                         </li>
                     </ul>
                 </div>
@@ -126,22 +136,20 @@
 
                 <!--Grid column-->
                 <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
-                    <h5 class="text-uppercase mb-0">Informação Legal</h5>
+                    <h5 class="text-uppercase">Informação Legal</h5>
 
                     <ul class="list-unstyled">
                         <li>
-                            <a href="#!" class="" style="color:#edeef7">Termos e Condições</a>
+                            <a href="" class="text-decoration-none" style="color:#edf5fa">Termos e Condições</a>
                         </li>
                         <li>
-                            <a href="https://livroreclamacoes.pt/Inicio/" class="" style="color:#edeef7">Livro de
+                            <a href="https://livroreclamacoes.pt/Inicio/" class="text-decoration-none"
+                                style="color:#edf5fa">Livro de
                                 Reclamações</a>
                         </li>
                         <li>
-                            <a href="https://livroreclamacoes.pt/Pedido/ElogioSugestao" class=""
-                                style="color:#edeef7">Livro de Elogios</a>
-                        </li>
-                        <li>
-                            <a href="#!" class="" style="color:#edeef7">Brevemente</a>
+                            <a href="https://livroreclamacoes.pt/Pedido/ElogioSugestao" class="text-decoration-none"
+                                style="color:#edf5fa">Livro de Elogios</a>
                         </li>
                     </ul>
                 </div>
@@ -150,6 +158,7 @@
 
         </div>
 
+        <!-- Copyright -->
         <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.05);">
             © 2024 PONTE Shop. Todos os direitos reservados
         </div>
