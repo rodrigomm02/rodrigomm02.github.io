@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Encode+Sans:wght@100..900&family=Public+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+:root{
+    background: #050b0b;
+    color: #e6f4f4;
+    font-family: 'Public Sans', 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+body{
+    /* padding-top: 72px; */
+    /* margin: 0; */
+    background: inherit;
+    color: inherit;
+}
+
+h1, h2, h3, h4, h5, h6{
+    font-family: 'Encode Sans', 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    
+}
+
+.logo{
+    font-size: 25px;
+    text-transform: uppercase;
+    font-weight: 900;
+}
+
+/* .nav-items > a{
+    font-size: 14px;
+    color: #e6f4f4;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: 0.3s;
+} */
+
+/* .nav-items > a:hover{
+    color: black;
+    text-decoration: underline;
+} */
