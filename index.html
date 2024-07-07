@@ -53,7 +53,7 @@
             <div class="btn-container">
                 <button class="btn btn-color-2" onclick="window.open('assets/CV Rodrigo Maio 2024.pdf')">
                     Download CV</button>
-                <button class="btn btn-color-2" onclick="location.href('./#contacts')">
+                <button class="btn btn-color-2" onclick="location.href='#contacts'">
                     Contacta-me</button>
             </div>
 
@@ -210,7 +210,7 @@
                         </article>
                     </div>
                 </div>
-                
+
             </div>
         </div>
         <!-- Ícone Seta -->
@@ -218,27 +218,97 @@
     </section>
 
     <!-- Secção Projetos -->
-     <section id="projects">
+    <section id="projects">
         <p class="section__text__p1">Os mais recentes</p>
         <h1 class="title">Projetos</h1>
         <div class="experience-details-container">
-            <div class="details-container color-container">
-                <div class="article-container">
-                    <img src="" alt="Projeto Snake" class="project-img">
-                </div>
+            <div class="about-containers">
                 <!-- Projeto Snake -->
-                <h2 class="experience-sub-title project-title">Primeiro Projeto</h2>
-                <div class="btn-container">
-                    <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com'">
-                        Github
-                    </button>
-                    <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com'">
-                        Demonstração
-                    </button>
+                <div class="details-container color-container">
+                    <div class="article-container">
+                        <img src="" alt="Projeto Snake" class="project-img">
+                    </div>
+
+                    <h2 class="experience-sub-title project-title">Projeto Snake</h2>
+                    <div class="btn-container">
+                        <button class="btn btn-color-2 project-btn"
+                            onclick="location.href='https://github.com/rodrigomm02'">
+                            Github
+                        </button>
+                        <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com'">
+                            Demonstração
+                        </button>
+                    </div>
+                </div>
+                <!-- Projeto Sudoku -->
+                <div class="details-container color-container">
+                    <div class="article-container">
+                        <img src="" alt="Projeto Sudoku" class="project-img">
+                    </div>
+                    <h2 class="experience-sub-title project-title">Projeto Sudoku</h2>
+                    <div class="btn-container">
+                        <button class="btn btn-color-2 project-btn"
+                            onclick="location.href='https://github.com/rodrigomm02'">
+                            Github
+                        </button>
+                        <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com'">
+                            Demonstração
+                        </button>
+                    </div>
+                </div>
+                <!-- Projeto ??? -->
+                <div class="details-container color-container">
+                    <div class="article-container">
+                        <img src="" alt="Projeto ???" class="project-img">
+                    </div>
+                    <h2 class="experience-sub-title project-title">Projeto ???</h2>
+                    <div class="btn-container">
+                        <button class="btn btn-color-2 project-btn"
+                            onclick="location.href='https://github.com/rodrigomm02'">
+                            Github
+                        </button>
+                        <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com'">
+                            Demonstração
+                        </button>
+                    </div>
                 </div>
             </div>
         </div>
-     </section>
+        <img src="./assets/icons/arrow.png" alt="Ícone seta" class="icon arrow" onclick="location.href='./#contacts'">
+    </section>
+
+    <!-- Secção Projetos -->
+    <section id="contacts">
+        <p class="section__text__p1">Vamos conversar</p>
+        <h1 class="title">Contacta-me</h1>
+        <div class="contact-info-upper-container">
+            <!-- Contacto Email -->
+            <div class="contact-info-container">
+                <img src="assets/icons/email.png" alt="Ícone Email" class="icon contact-icon email-icon">
+                <p><a href="mailto:martins.rodrigo2012@gmail.com">martins.rodrigo2012@gmail.com</a></p>
+            </div>
+            <!-- Contacto LinkedIn -->
+            <div class="contact-info-container">
+                <img src="assets/icons/linkedin.png" alt="Ícone LinkedIn" class="icon contact-icon">
+                <p><a href="https://linkedin.com/in/rodrigomm02">LinkedIn</a></p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Rodapé -->
+    <footer>
+        <nav>
+            <div class="nav-links-container">
+                <ul class="nav-links">
+                    <li><a href="#about">Sobre</a></li>
+                    <li><a href="#experience">Experiência</a></li>
+                    <li><a href="#projects">Projetos</a></li>
+                    <li><a href="#contacts">Contactos</a></li>
+                </ul>
+            </div>
+        </nav>
+        <p>Copyright &#169; 2024 Rodrigo Martins. Todos os direitos reservados.</p>
+    </footer>
 
     <script src="scripts/script.js">
     </script>
