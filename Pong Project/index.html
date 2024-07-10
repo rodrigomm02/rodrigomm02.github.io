@@ -6,15 +6,34 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <title>Pong Game</title>
+    <title>Projeto PONG</title>
 </head>
 
 <body>
-    <h1>Pong Game</h1>
+    <!-- Barra de Navegação -->
+    <nav id="desktop-nav">
+        <!-- Logotipo do Website -->
+        <div class="logo">Rodrigo/Martins</div>
+        <div>
+            <ul class="nav-links">
+
+                <li>
+                    <img id="modeToggle" class="icon color-icon" src="../assets/icons/theme_light.png"
+                        src-light="../assets/icons/theme_light.png" src-dark="../assets/icons/theme_dark.png"
+                        alt="Ícone cor" />
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <h1 class="logo">Pong Game</h1><br>
+    <p class="section__text__p1">Controla o jogador esquerdo ao utilizar as setas 'cima' e 'baixo'.</p><br>
     <canvas></canvas>
-    <p>Controla o jogador esquerdo ao utilizar as setas 'cima' e 'baixo'.</p>
-    <button onclick="location.href='../index.html'">Voltar para o Portfólio</button>
+    <br>
+    <div class="btn-container">
+        <button class="btn btn-color-2" onclick="location.href='../index.html'">Voltar para o Portfólio</button>
+    </div>
     <script src="./script.js"></script>
+    <script src="../scripts/script.js"></script>
 </body>
 
 </html>
